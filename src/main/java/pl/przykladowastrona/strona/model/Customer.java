@@ -1,4 +1,4 @@
-package pl.przykladowastrona.strona.entity;
+package pl.przykladowastrona.strona.model;
 
 import javax.persistence.Entity;
 

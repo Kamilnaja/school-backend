@@ -2,7 +2,7 @@ package pl.przykladowastrona.strona.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import pl.przykladowastrona.strona.entity.Rok;
+import pl.przykladowastrona.strona.model.Rok;
 import pl.przykladowastrona.strona.repository.RokRepository;
 
 import java.util.ArrayList;
@@ -23,5 +23,9 @@ public class RokService {
             lataSzkolne.add(rok);
         }
         return lataSzkolne;
+    }
+
+    public Rok getYearById(int i) {
+        return rokSzkolnyRepository.findById(i).get();
     }
 }

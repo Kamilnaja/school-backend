@@ -1,20 +1,17 @@
-package pl.przykladowastrona.strona.entity;
+package pl.przykladowastrona.strona.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 
 @Entity
+@Table(name = "ROK_SZKOLNY")
 public class Rok {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
 
+    @Column(name = "ROK_SZKOLNY")
     private String rokSzkolny;
-
-    // Constructors, getters, and setters (you can use your IDE to generate them)
 
     // Default constructor (required by JPA)
     public Rok() {
