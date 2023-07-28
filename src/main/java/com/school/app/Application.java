@@ -1,4 +1,4 @@
-package pl.przykladowastrona.strona;
+package com.school.app;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;

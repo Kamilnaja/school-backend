@@ -1,4 +1,4 @@
-package pl.przykladowastrona.strona.service;
+package com.school.app.service;
 
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Service;

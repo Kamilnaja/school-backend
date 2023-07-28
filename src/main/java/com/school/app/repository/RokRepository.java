@@ -1,7 +1,7 @@
-package pl.przykladowastrona.strona.repository;
+package com.school.app.repository;
 
 import org.springframework.data.repository.CrudRepository;
-import pl.przykladowastrona.strona.model.Rok;
+import com.school.app.model.Rok;
 
 public interface RokRepository extends CrudRepository<Rok, Integer> {
 }

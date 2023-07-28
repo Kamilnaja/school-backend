@@ -1,9 +1,9 @@
-package pl.przykladowastrona.strona.service;
+package com.school.app.service;
 
+import com.school.app.repository.RokRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import pl.przykladowastrona.strona.model.Rok;
-import pl.przykladowastrona.strona.repository.RokRepository;
+import com.school.app.model.Rok;
 
 import java.util.ArrayList;
 import java.util.List;

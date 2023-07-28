@@ -1,4 +1,4 @@
-package pl.przykladowastrona.strona.model;
+package com.school.app.model;
 
 import javax.persistence.Entity;
 
